@@ -1,0 +1,64 @@
+body{
+  background: url(./images/weatherbg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+} 
+.Weather-main{
+  /* background: url(./images/weatherbg.jpg); */
+  height: 50vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.Heading{
+  color: aliceblue;
+}
+.weatherResultBox{
+  margin: auto;
+  height: 300px;
+  width: 500px;
+  
+
+}
+.weatherIcon{
+  width: 5rem;
+  height: 5rem;
+  border-radius: 30%;
+  margin-top: 2rem;
+}
+.WeatherCity{
+  font-size: 35px;
+  color: black;
+}
+.WeatherTemp{
+  font-size: 55px;
+  font-weight: 700;
+  color: black;
+}
+.typewriter  {
+  color: aliceblue;
+  overflow: hidden; 
+  /* border-right: .15em solid white;  */
+  white-space: nowrap;
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+} */
