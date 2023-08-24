@@ -10,9 +10,10 @@ import Footer from "./components/footer";
 
 function App() {
 
-  const apikey = "5cdd4c37a8cbedc29e39d964b76207c0";
+  const apikey = process.env.REACT_APP_WEATHER_API;
+  
   const [PlaceName , setPlaceName] = useState("")
-  const [data, setdata] = useState({})
+  const [data, setdata] = useState({}) 
 
   const getWetherDetails = (CityName) => {
     if (!CityName) return
