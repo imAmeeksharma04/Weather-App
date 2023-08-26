@@ -28,7 +28,7 @@ function Footer() {
                         </section>
                         </div>
                     <div class="text-center p-3" style={{backgroundColor: "rgb(0, 0, 0, 0.2)"}}>
-                        © 2020 Copyright:
+                        © 2023 Copyright:
                         <a class="text-white" href="https://github.com/imAmeeksharma04" target='blank'>Ameek Sharma</a>
                     </div>
                     </footer>
