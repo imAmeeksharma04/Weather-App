@@ -81,7 +81,7 @@ body{
 }
  .Humidperc, .windspeed{
  margin-bottom:-15px ;
- color: azure;
+ color: azure; 
   font-size: 28px;
   margin-top: -6px;
 }
